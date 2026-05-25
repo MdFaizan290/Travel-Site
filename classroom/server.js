@@ -27,7 +27,7 @@ app.get("/hello",(req,res) => {
     res.render("page.ejs",{name:req.session.name});
 })
 
-
+console.log(process.env.NODE_ENV);
 
 
 // app.get("/reqcount",(req,res) => {
