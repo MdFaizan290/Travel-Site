@@ -9,9 +9,10 @@ body {
 
 }
 
-.container{
+.container {
     flex: 1;
 }
+
 /* .plus-jakarta-sans-<uniquifier> {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-optical-sizing: auto;
@@ -33,7 +34,8 @@ body {
 .nav-link {
     color: #222222 !important;
 }
-.nav-link:hover{
+
+.nav-link:hover {
     color: #fe424d !important;
 }
 
@@ -91,42 +93,49 @@ body {
     font-weight: 400 !important;
 }
 
-.listing-link{
+.listing-link {
     text-decoration: none;
 }
 
 /* Card image overlay Effect */
-.card-img-overlay{
+.card-img-overlay {
     opacity: 0;
 }
-.card-img-overlay:hover{
+
+.card-img-overlay:hover {
     opacity: 0.2;
     background-color: white;
 }
 
 /* new page */
-.add-btn{
+.add-btn {
     background-color: #fe424d !important;
     border: none !important;
 }
 
 /* Edit page */
-.edit-btn{
+.edit-btn {
     background-color: #fe424d !important;
     border: none !important;
 }
 
 
 /* Show Page */
-.show-img{
+.show-img {
     height: 30vh;
 }
 
-.btns{
+.btns {
     display: flex;
 }
 
-.show-card{
+.show-card {
     padding-left: 0px;
     padding-right: 0px;
+}
+
+/* Map Styling */
+#map {
+    height: 400px;
+    width: 80vh;
 }

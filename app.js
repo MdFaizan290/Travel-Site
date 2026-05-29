@@ -50,10 +50,10 @@ const sessionOption = {
 }
 
 //Home Route
-app.get("/", (req, res) => {
-    // res.render("listings/home.ejs");
-    res.send("Home Page");
-})
+// app.get("/", (req, res) => {
+//     // res.render("listings/home.ejs");
+//     res.send("Home Page");
+// })
 
 
 app.use(session(sessionOption));
